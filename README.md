@@ -106,10 +106,13 @@ The detailed results for both models are stored in:
 
 ## 🏆 Conclusion
 
-- **YOLOv8m**: Best for **faster inference** while maintaining good accuracy.
-- **YOLOv11m**: Best for **higher accuracy** but slightly **slower inference**.
-- The choice depends on whether you prioritize **speed or accuracy** for deployment.
+The comparison between YOLOv8m and YOLOv11m shows that YOLOv8m outperforms YOLOv11m in precision, especially at 320x320 resolution. However, the remaining performance metrics, including recall and mAP, are closely similar between both models.
 
+Both models were trained on 640x640 resolution, and they consistently performed better at 640x640 compared to 320x320, with an approximate 5% improvement in accuracy.
+
+From the confusion matrix, we observe that YOLOv8m detects safety vests at 91% accuracy (0.91 on the test set), whereas YOLOv11m achieves 90% accuracy (0.90). For the helmet class, both models achieve 86% detection accuracy (0.86).
+
+Overall, YOLOv8m is the preferred model for applications prioritizing precision, while YOLOv11m remains competitive in overall detection performance.
 
 
 
