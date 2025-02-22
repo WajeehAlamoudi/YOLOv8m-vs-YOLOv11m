@@ -52,26 +52,33 @@ yolo task=detect mode=val model=yolov11m.pt data=ultralytics/datasets/Safety Hel
 | F1-Score            | 89.994614%           | 87.202015%           | 89.960649%            | 86.890553%            |
 | Inference Time (ms) | 2.169583             | 1.005517             | 2.409280              | 1.137418              |
 
-## 📈 Performance Visualization
+📈 Performance Visualization
 
 The following charts illustrate the performance of both models at different input resolutions (640x640 and 320x320):
-## 📌 Prediction Results
+![Comparison](test_results/test_result.png)
+📌 Prediction Results
 
 Here are the prediction results for both models on different input sizes:
 
-### **YOLOv8m Predictions**
-#### **📌 640x640 Resolution**
-![YOLOv8m at 640x640](test_results/YOLOv8m at 640x640/val_batch0_pred.jpg)
+YOLOv8m Predictions
 
-#### **📌 320x320 Resolution**
-![YOLOv8m at 320x320](test_results/YOLOv8m at 320x320/val_batch0_pred.jpg)
+📌 640x640 Resolution
 
-### **YOLOv11m Predictions**
-#### **📌 640x640 Resolution**
-![YOLOv11m at 640x640](test_results/YOLOv11m at 640x640/val_batch0_pred.jpg)
+![YOLOv8m at 640x640](test_results/YOLOv8m%20at%20640x640/val_batch0_pred.jpg)
 
-#### **📌 320x320 Resolution**
-![YOLOv11m at 320x320](test_results/YOLOv11m at 320x320/val_batch0_pred.jpg)
+📌 320x320 Resolution
+
+![YOLOv8m at 320x320](test_results/YOLOv8m%20at%20320x320/val_batch0_pred.jpg)
+
+YOLOv11m Predictions
+
+📌 640x640 Resolution
+
+![YOLOv11m at 640x640](test_results/YOLOv11m%20at%20640x640/val_batch0_pred.jpg)
+
+📌 320x320 Resolution
+
+![YOLOv11m at 320x320](test_results/YOLOv11m%20at%20320x320/val_batch0_pred.jpg)
 
 ## 📌 Uploaded Files
 
