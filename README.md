@@ -45,12 +45,12 @@ yolo task=detect mode=val model=yolov11m.pt data=ultralytics/datasets/Safety Hel
 
 | Metric              | YOLOv8m (640) | YOLOv8m (320) | YOLOv11m (640) | YOLOv11m (320) |
 | ------------------- | ------------- | ------------- | -------------- | -------------- |
-| mAP50               | XX%           | XX%           | XX%            | XX%            |
-| mAP50-95            | XX%           | XX%           | XX%            | XX%            |
-| Precision           | XX%           | XX%           | XX%            | XX%            |
-| Recall              | XX%           | XX%           | XX%            | XX%            |
-| F1-Score            | XX%           | XX%           | XX%            | XX%            |
-| Inference Time (ms) | XX            | XX            | XX             | XX             |
+| mAP50               | 91.901322%           | 87.860558%           | 91.933984%            | 87.768032%            |
+| mAP50-95            | 66.358764%           | 60.321393%           | 66.274151%            | 60.337352%            |
+| Precision           | 94.163463%           | 93.188866%           | 93.888522%            | 92.400624%            |
+| Recall              | 86.179337%           | 81.938057%           | 86.348320%            | 82.000746%            |
+| F1-Score            | 89.994614%           | 87.202015%           | 89.960649%            | 86.890553%            |
+| Inference Time (ms) | 2.169583             | 1.005517             | 2.409280              | 1.137418              |
 
 ## 📈 Performance Visualization
 
@@ -79,7 +79,6 @@ Four prediction images for different test cases
 The detailed results for both models are stored in:
 
 - `yolo_comparison_results_640_320.csv`
-- `yolo_metrics_breakdown.csv`
 
 ## 🏆 Conclusion
 
