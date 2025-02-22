@@ -55,8 +55,25 @@ yolo task=detect mode=val model=yolov11m.pt data=ultralytics/datasets/Safety Hel
 ## 📈 Performance Visualization
 
 The following charts illustrate the performance of both models at different input resolutions (640x640 and 320x320):
+## 📌 Prediction Results
 
-📌 Uploaded Files
+Here are the prediction results for both models on different input sizes:
+
+### **YOLOv8m Predictions**
+#### **📌 640x640 Resolution**
+![YOLOv8m at 640x640](test_results/YOLOv8m%20at%20640x640.png)
+
+#### **📌 320x320 Resolution**
+![YOLOv8m at 320x320](test_results/YOLOv8m%20at%20320x320.png)
+
+### **YOLOv11m Predictions**
+#### **📌 640x640 Resolution**
+![YOLOv11m at 640x640](test_results/YOLOv11m%20at%20640x640.png)
+
+#### **📌 320x320 Resolution**
+![YOLOv11m at 320x320](test_results/YOLOv11m%20at%20320x320.png)
+
+## 📌 Uploaded Files
 
 The repository includes the following files:
 
@@ -78,7 +95,7 @@ Four prediction images for different test cases
 
 The detailed results for both models are stored in:
 
-- `yolo_comparison_results_640_320.csv`
+- `test_result/yolo_comparison_results_640_320.csv`
 
 ## 🏆 Conclusion
 
