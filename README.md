@@ -61,17 +61,17 @@ Here are the prediction results for both models on different input sizes:
 
 ### **YOLOv8m Predictions**
 #### **📌 640x640 Resolution**
-![YOLOv8m at 640x640](test_results/YOLOv8m%20at%20640x640.png)
+![YOLOv8m at 640x640](test_results/YOLOv8m at 640x640/val_batch0_pred.jpg)
 
 #### **📌 320x320 Resolution**
-![YOLOv8m at 320x320](test_results/YOLOv8m%20at%20320x320.png)
+![YOLOv8m at 320x320](test_results/YOLOv8m at 320x320/val_batch0_pred.jpg)
 
 ### **YOLOv11m Predictions**
 #### **📌 640x640 Resolution**
-![YOLOv11m at 640x640](test_results/YOLOv11m%20at%20640x640.png)
+![YOLOv11m at 640x640](test_results/YOLOv11m at 640x640/val_batch0_pred.jpg)
 
 #### **📌 320x320 Resolution**
-![YOLOv11m at 320x320](test_results/YOLOv11m%20at%20320x320.png)
+![YOLOv11m at 320x320](test_results/YOLOv11m at 320x320/val_batch0_pred.jpg)
 
 ## 📌 Uploaded Files
 
